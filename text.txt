@@ -6,3 +6,4 @@ wangwu
 
 这是master和merge分支新添加的内容
 version1
+version2
