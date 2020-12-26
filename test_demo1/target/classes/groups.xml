@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<suite name="groups">
+<!--    <test name="testGroup">-->
+<!--        <classes>-->
+<!--            <class name="com.aliyun.test.group.GroupsOnClass1"/>-->
+<!--            <class name="com.aliyun.test.group.GroupsOnClass2"/>-->
+<!--            <class name="com.aliyun.test.group.GroupsOnClass3"/>-->
+<!--        </classes>-->
+<!--    </test>-->
+    <test name="choicegroup">
+       <groups>
+           <run>
+               <include name="stu"/>
+           </run>
+       </groups>
+        <classes>
+            <class name="com.aliyun.test.group.GroupsOnClass1"/>
+            <class name="com.aliyun.test.group.GroupsOnClass2"/>
+            <class name="com.aliyun.test.group.GroupsOnClass3"/>
+        </classes>
+    </test>
+</suite>

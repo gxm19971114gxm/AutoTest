@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<suite name="group1">
+    <test name="login">
+        <classes>
+            <class name="com.aliyun.test.suite.SuiteConfig"/>
+            <class name="com.aliyun.test.suite.loginTest"/>
+        </classes>
+    </test>
+    <test name="pay">
+        <classes>
+            <class name="com.aliyun.test.suite.SuiteConfig"/>
+
+            <class name="com.aliyun.test.suite.PayTest"/>
+        </classes>
+    </test>
+</suite>
