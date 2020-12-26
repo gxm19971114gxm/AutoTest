@@ -3,4 +3,5 @@ lisi
 wangwu
 
 这是需要合并的内容
-这是master分支新添加的内容
+
+这是master和merge分支新添加的内容
