@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="这是我的第一份测试报告">
+    <test name="report">
+        <classes>
+            <class name="com.alliyun.report.ExtendedReport">
+                <methods>
+                    <include name="testCase1"/>
+                    <include name="testCase2"/>
+                    <include name="testCase3"/>
+                    <include name="testCase4"/>
+                    <include name="testCase5"/>
+                    <include name="testCase6"/>
+                    <include name="testCase7"/>
+                    <include name="testCase8"/>
+                    <include name="testCase9"/>
+                    <include name="testCaseA"/>
+                    <include name="testCaseB"/>
+                    <include name="testCaseC"/>
+                    <include name="testCaseD"/>
+                    <include name="testCaseE"/>
+                    <include name="testCaseF"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <listeners>
+        <listener class-name="com.alliyun.listener.ExtentTestNGIReporterListener"/>
+    </listeners>
+</suite>
